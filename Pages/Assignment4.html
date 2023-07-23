@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .form {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            /* background-color: rgba(0, 0, 0, 0.493); */
+        }
+        .box{
+           border: 2px solid blueviolet; 
+           border-radius: 5px;
+           width: 230px;
+           padding: 10px;
+        }
+
+        .login{
+            background-color: blueviolet;
+            width: 252px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .login-btn{
+            width: 120px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .para{
+            text-align: center;
+        }
+
+        .login-btn a{
+            text-decoration: none;
+            
+        }
+
+        .btn1 {
+            
+            border: 2px solid red;
+        }
+
+        .btn1 a{
+            color: red;
+        }
+        .btn2{
+           
+            border: 2px solid blue;
+        }
+
+        .btn2 a{
+            color: blue;
+        }
+        .login-btn img{
+            height: 13px;
+        }
+
+        .image{
+            height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <h1>Login Form</h1>
+        <img src="./../Images/user.png" alt="user" class="image">
+        <p>Doesn't having an account yet?<a href="SignUp.html">sign up</a>
+        </p>
+        <form>
+            <label for="email">Email Address</label><br><br>
+            <input type="email" placeholder="you@example.com" id="email" class="box">
+            <br>
+            <br>
+
+            <label for="Password">Password</label>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">forget Password</a>
+            <br><br>
+            <input type="Password" placeholder="Enter 8 character or more" id="Password" class="box"><br><br>
+            <button class="box login">Login</button>
+            <br>
+
+            <p class="para">or login with</p>
+            
+
+            <div class="btn">
+            <button class="login-btn btn1"><img src="./../Images/search.png" alt="Google">&nbsp;&nbsp;&nbsp;<a href="www.roadtocode.org">Google</a></button>
+            <button class="login-btn btn2"><img src="./../Images/facebook.png" alt="Facebook">&nbsp;&nbsp;&nbsp;<a href="">Facebook</a></button>
+        </div>
+            <br><br>
+        </form>
+    </div>
+</body>
+
+</html>
