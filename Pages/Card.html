@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            /* margin: auto; */
+            display: flex;
+        }
+        .cards {
+            /* height: 500px; */
+            margin: auto;
+            border: 2px solid black;
+            width: 300px;
+            text-align: center;
+            padding: 40px 25px;
+            border-radius: 5px;
+            background-color: rgb(41, 35, 67);
+            color: white;
+            /* box-shadow: 0 0 12px 14px  black; */
+            display: inline-block;
+        }
+
+         .cards:hover {
+            box-shadow: 3px 4px 12px 4px blueviolet;
+        }
+
+        .t-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .heart i {
+            margin-left: 20px;
+        }
+
+        .card-content img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .card-content {
+
+            /* height: 350px; */
+
+        }
+
+        .card-content h3 {
+            color: rgba(240, 248, 255, 0.486);
+            margin-top: -18px;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .card-content p {
+            color: rgb(216, 221, 225);
+            font-size: 18px;
+            /* width: 200px; */
+        }
+
+        .card-content .btn {
+            margin: 10px;
+            padding: 10px 30px;
+            font-size: 17px;
+            border-radius: 17px;
+            margin-bottom: 60px;
+            background: linear-gradient(90deg,rgb(187, 64, 224),rgb(248, 9, 116));
+            border: none;
+            color: white;
+}
+        
+
+        .b-icons {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 260px;
+            margin: auto;
+            
+        }
+
+        .b-icons i {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 30px;
+            background-color: rgb(224, 64, 136);
+            color: white;
+        }
+
+        .b-icons .brows i {
+            background-color: rgb(248, 9, 116);
+            color: white;
+        }
+
+        .span{
+            font-size: 20px;
+        }
+
+        .b-icons1 .span1{
+            /* font-size: 20px; */
+            color: rgba(255, 255, 255, 0.568);
+        }
+
+        .b-icons  .up i{
+            background-color: rgb(187, 64, 224);
+        }
+
+        .b-icons  .be i{
+            background-color: rgb(121, 73, 234);
+        }
+
+        .card1{
+            background-color: white;
+            color: black;
+        }
+
+        .card1 .card-content .heading{
+            color: rgb(103, 98, 98);
+        }
+
+        .card1 .card-content p{
+            color: rgb(49, 47, 47);
+        }
+
+        .b-icons1  span{
+            color: rgb(240, 237, 244);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="cards">
+        <div class="t-icons">
+            <div class="arrow">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+        </div>
+
+        <div class="card-content">
+            <img src="./../Images/girl.jpg" alt="">
+            <h1>Baverly Little</h1>
+            <h3 class="heading3">Seniour Product Designer</h3>
+            <p>Create Usable Interface and Design @ Graphic$park</p>
+            <button class="btn">Hire me</button>
+        </div>
+        <div class="b-icons b-icons1">
+            <div class="brows">
+                <i class="fa-solid fa-basketball"></i>
+                <br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+            <div class="be">
+                <i class="fa-brands fa-behance"></i><br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+            <div class="up">
+                <i class="fa-brands fa-pinterest"></i><br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards card1">
+        <div class="t-icons">
+            <div class="arrow">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+        </div>
+
+        <div class="card-content">
+            <img src="./../Images/handsome-boy.jpg" alt="">
+            <h1>Andrew Neil</h1>
+            <h3 class="heading3 heading">Seniour Product Designer</h3>
+            <p>Create Usable Interface and Design @ Graphic$park</p>
+            <button class="btn">Hire me</button>
+        </div>
+        <div class="b-icons">
+            <div class="brows">
+                <i class="fa-solid fa-basketball"></i>
+                <br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+            <div class="be">
+                <i class="fa-brands fa-behance"></i><br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+            <div class="up">
+                <i class="fa-brands fa-pinterest"></i><br>
+                <span class="span">12.8k</span><br><span class="span1">followers</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
